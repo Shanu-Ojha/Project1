@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#top-frame {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#top-frame a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+#container {
+    display: flex;
+    height: 80vh;
+}
+#left-frame {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+#left-frame a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+#right-frame {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+}
